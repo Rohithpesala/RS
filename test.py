@@ -4,8 +4,8 @@ t = 0
 
 csvpathr = "ratings_Clothing_Shoes_and_Jewelry.csv"
 csvpathw = "Data_" + csvpathr
-df = pd.read_csv(csvpathw)
-df = df.sort(["User id", "Timestamp"])
+df = pd.read_csv(csvpathr)
+#df = df.sort(["User id", "Timestamp"])
 print df[0:20]
 
 
